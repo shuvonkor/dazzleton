@@ -47,6 +47,7 @@
         </div>
     </nav>
     <!-- Header End  -->
+
     <!-- image slider  Start-->
     <div class="container">
         <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
@@ -109,17 +110,32 @@
     </div>
     <!-- image slider  End-->
 
-    <!-- About start  -->
-    <section>
-        <div class="container about">
-            <h1 class="text-center">This is the heading</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum rerum nam quasi voluptas temporibus distinctio pariatur culpa eligendi, nostrum tempore laboriosam, accusamus molestiae incidunt delectus facilis quo assumenda repudiandae natus velit illum ipsam maxime. Pariatur praesentium soluta hic voluptates! Ipsam a quibusdam, dicta mollitia sunt rem animi nam nemo deserunt, voluptatum fuga facere illum adipisci similique nihil. Suscipit facilis veniam ducimus repudiandae saepe, nesciunt dolor impedit ipsam tempore officiis nisi? Magni obcaecati laudantium nostrum ipsa tenetur quae iure, accusamus cupiditate? Est officia recusandae doloremque sunt aperiam provident id deserunt assumenda, possimus aut expedita dignissimos. Necessitatibus neque, assumenda ea eius eos consequatur perferendis dolores nam expedita quae accusantium, esse illum architecto ipsum sed. Minus porro laudantium asperiores magni molestiae perferendis sunt quam odio amet laborum consequatur, dolorum necessitatibus veniam est, vero officia id animi ratione nostrum. Sint suscipit obcaecati, reiciendis in minima ullam cupiditate quod omnis maxime mollitia laborum fugiat ipsa dignissimos voluptas ut perferendis, beatae possimus est et, quo aperiam nulla eius dolore reprehenderit. Ipsa incidunt blanditiis tenetur dolor vero quia sint placeat possimus, illo culpa, molestias est veritatis! Vel consectetur impedit unde harum, voluptatibus, distinctio a natus autem ipsam mollitia molestias velit perspiciatis, sed architecto vero ullam blanditiis incidunt recusandae libero laudantium facilis! Veritatis tempore repudiandae ea in consequatur. Delectus natus inventore itaque, aliquid veritatis et modi officiis. Natus fugit, ipsam nobis ex dolore omnis repudiandae odio incidunt, quibusdam, quas vel non officiis hic ducimus magnam dolor ad at est veniam porro ratione! Corrupti ex facilis aspernatur odio totam, vitae distinctio qui fugiat? Repellendus, nihil ratione! Totam consequuntur, fugit dolores quidem quos aliquid cumque id ex optio! Magni laboriosam porro debitis! Cumque totam voluptas assumenda unde eum non fuga neque inventore, quaerat magni odio quos asperiores deserunt dolorum eligendi veritatis iure. Earum sequi itaque, ea ad maxime sed porro nisi necessitatibus commodi dicta quos harum magni cum asperiores explicabo assumenda veritatis!
-            </p>
+    <!-- About Us start  -->
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <img src="path/to/image.jpg" alt="Image description" class="img-fluid">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <h2>About Us</h2>
+                <p class="lead">We are a team of professionals dedicated to providing high-quality products and services
+                    to the healthcare industry. Our focus is on delivering excellence through exceptional service and
+                    empowered employees.</p>
+                <ul>
+                    <li>Over 10 years of experience in the industry</li>
+                    <li>Wide range of products and services</li>
+                    <li>Committed to customer satisfaction</li>
+                </ul>
+            </div>
         </div>
-    </section>
-    <!-- About  end  -->
+    </div>
+</section>
 
-    <!-- content -->
+
+    <!-- About Us  end  -->
+
+    <!-- Products and Services Start -->
     <div class="container contract_info">
         <h1>For any type of information contact with us</h1>
         <div class="contact_email">
@@ -127,7 +143,12 @@
                 office@dazzleton.com</a>
         </div>
     </div>
-    <!-- content end-->
+    <!-- Products and Services end-->
+    <!-- Blog start  -->
+    <!-- Blog End  -->
+    <!-- Contact Us Start  -->
+    <!-- Contact Us End  -->
+
     <!-- footer Start  -->
     <footer class="footer">
         <div class="text-center">
@@ -137,23 +158,12 @@
         </div>
     </footer>
     <!-- footer End  -->
+    
     <!-- Scroll top Button  -->
-    <div class='scrolltop'>
-        <div class='scroll icon'><i class="fa fa-rocket" aria-hidden="true"></i></div>
-    </div>
+    <button id="scroll-up-btn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     <!-- Scroll top Button  -->
-    <!-- Scroll top Button js  -->
-    <script type="text/javascript">
-        $(window).scroll(function () {
-                if ($(this).scrollTop() > 50) {
-                    $('.scrolltop:hidden').stop(true, true).fadeIn();
-                } else {
-                    $('.scrolltop').stop(true, true).fadeOut();
-                }
-            });
-            $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: $(".top").offset().top }, "1000"); return false }) })
-    </script>
-    <!-- Scroll top Button js  -->
+
+    <script src="./js/script.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

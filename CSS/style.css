@@ -188,6 +188,9 @@ html {
 .blog-card{
     margin: 20px;
 }
+#hidden-text{
+    display: none;
+}
 
 /* Contact Us  */
 #contact-us-form{

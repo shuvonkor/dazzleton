@@ -7,9 +7,11 @@
 html {
     scroll-behavior: smooth;
 }
- p{
+
+p {
     text-align: justify;
 }
+
 .navbar-brand img {
     padding: 0;
     margin: 0;
@@ -67,11 +69,13 @@ html {
     text-decoration: none;
     font-size: 20px;
 }
+
 /* About Section */
 #about {
     padding: 50px 0;
 }
-#about img{
+
+#about img {
     max-height: 600px;
 }
 
@@ -85,10 +89,12 @@ html {
     line-height: 1.5;
     margin-bottom: 30px;
 }
-#about span{
+
+#about span {
     display: block;
     margin-bottom: 20px;
 }
+
 @media (max-width: 991.98px) {
     #about {
         padding: 80px 0;
@@ -109,25 +115,28 @@ html {
     }
 }
 
-.services-col-icon i{
+.services-col-icon i {
     font-size: 20px;
     padding: 15px;
     border-radius: 50%;
     background-color: #2BB673;
 }
-.services-col{
+
+.services-col {
     box-shadow: 0px 10px 20px rgb(0 0 0 / 25%);
 }
 
 /* Our Services  */
-#service{
+#service {
     padding: 50px 0;
 }
+
 #service h2 {
     font-size: 42px;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
@@ -160,9 +169,10 @@ html {
 }
 
 /* Our Blog  */
-#blog{
-        padding: 50px 0;
+#blog {
+    padding: 50px 0;
 }
+
 #blog h2 {
     font-size: 42px;
     margin-bottom: 30px;
@@ -180,32 +190,39 @@ html {
     text-decoration: none;
     text-align: center;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .read-more:hover {
     background-color: #3e8e41;
+    color: #fff;
 }
-.blog-card{
+
+.blog-card {
     margin: 20px;
 }
-#hidden-text{
+
+#hidden-text {
     display: none;
 }
 
 /* Contact Us  */
-#contact-us-form{
+#contact-us-form {
     padding: 50px 0;
 }
+
 #contact-us-form h2 {
     font-size: 42px;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-#contact-us-form p{
+
+#contact-us-form p {
     font-size: 16px;
     text-align: justify;
     margin-bottom: 30px;
 }
+
 /* Make Google Map responsive */
 #contact-us-form iframe {
     width: 100%;
@@ -217,17 +234,18 @@ html {
         height: 300px;
     }
 }
-.form-button{
+
+.form-button {
     margin-top: 10px;
     padding: 10px 30px;
     background-color: #3e8e41;
     border: none;
 }
-.form-button:hover{
+
+.form-button:hover {
     background-color: ;
     border: none;
 }
-
 
 /* footer  */
 #footer {
@@ -237,6 +255,7 @@ html {
     font-size: 20px;
     padding: 50px 0;
 }
+
 .subscribe-button {
     margin-top: 10px;
     padding: 10px 30px;
@@ -246,12 +265,14 @@ html {
     text-transform: uppercase;
     border: 1px solid #fff;
 }
-.copyright p{
+
+.copyright p {
     text-align: center;
     margin: auto;
     font-size: 20px;
     padding-top: 25px;
 }
+
 /* Scroll top Button  */
 #scroll-up-btn {
     display: none;
@@ -267,7 +288,8 @@ html {
     cursor: pointer;
     padding: 10px 17px;
 }
-#scroll-up-btn i{
+
+#scroll-up-btn i {
     font-size: 20px;
 }
 
